@@ -24,9 +24,12 @@ terraform version
 
 - We will create values of variables in file digitalocean.tfvars
 - When we use 'terraform init' it will create a workspace is 'default'
-- To create a new workspace: 'terraform workspace new dev'
-- View list of workspace: 'terraform workspace list'
-- Switch to workspace: 'terraform workspace select dev'
+- To create a new workspace: 
+```terraform workspace new dev```
+- View list of workspace: 
+```terraform workspace list```
+- Switch to workspace: 
+```terraform workspace select dev```
 
 ## Apply configuration
 ```
