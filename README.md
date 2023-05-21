@@ -1,8 +1,9 @@
 # Terraform basic guide with DigitalOcean cloud provider
 
 
-# we will use tfenv to manage the version of the terraform:
+## We will use tfenv to manage the version of the terraform:
 https://github.com/tfutils/tfenv
+
 - After install tfenv use bellow command to install latest terraform version
 ```
 tfenv install latest
@@ -17,7 +18,7 @@ tfenv use latest
 terraform version
 ```
 
-# Workspaces 
+## Workspaces 
 - Terraform have workspaces, so we wiil to create many resources for each of workspace. it such as a environment variable
 - For example, we will save available of dev environment in digitalocean.tfvars and chose file apply when use terraform commands
 
@@ -27,7 +28,7 @@ terraform version
 - View list of workspace: 'terraform workspace list'
 - Switch to workspace: 'terraform workspace select dev'
 
-# Apply configuration
+## Apply configuration
 ```
 terraform init
 ```
